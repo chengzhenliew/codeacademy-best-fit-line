@@ -66,6 +66,8 @@ possible_bs = [i/10 for i in range(-200, 201, 1)]
 
 
 # Task 10
+# x is the width of ball
+# y is how high the ball bounced
 datapoints = [(1, 2), (2, 0), (3, 4), (4, 4), (5, 3)]
 smallest_error = float("inf")
 best_m = 0 
